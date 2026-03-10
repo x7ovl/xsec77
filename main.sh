@@ -5,10 +5,10 @@
 export PROJECT_DIR=$(cd $(dirname $0); pwd)
 
 # 加载所有模块
-source ${PROJECT_DIR}/scripts/logger.sh
-source ${PROJECT_DIR}/scripts/helper.sh
-source ${PROJECT_DIR}/scripts/check_system.sh
-source ${PROJECT_DIR}/scripts/db.sh  # 新增：加载数据库模块
+source ${PROJECT_DIR}/utils/logger.sh
+source ${PROJECT_DIR}/utils/helper.sh
+source ${PROJECT_DIR}/utils/check_system.sh
+source ${PROJECT_DIR}/utils/db.sh  
 
 # 主函数
 main() {
